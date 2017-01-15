@@ -29,6 +29,11 @@ If you want to refresh the data file (ie: the following list can and will change
 $ terminaltutor -r -q "copy file"
 ```
 
+## Adding to this list
+
+* [Fork this repo](https://help.github.com/articles/fork-a-repo/)
+* [Submit a pull request](https://help.github.com/articles/about-pull-requests/)
+
 ## Commands
 
 List of helpful commands.
