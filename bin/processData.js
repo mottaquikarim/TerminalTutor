@@ -34,7 +34,8 @@ function _getFinalInfo(validatedInfo) {
     code.pop();
 
     return {
-        finalInfo: [].concat([ 'INFO', '------------------'], header, '', body, ['', 'EXAMPLE', '------------------'], code, ['', '']),
+        //finalInfo: [].concat([ 'INFO', '------------------'], header, '', body, ['', 'EXAMPLE', '------------------'], code, ['', '']),
+        finalInfo: [].concat(['------------------', 'INFO'], header, '', body, ['', 'EXAMPLE'], code, ['', '------------------']),
         key,
     }
 }

@@ -16,7 +16,7 @@ function initScript() {
     program
         .version('0.0.1')
         .option('-r, --refresh', 'Refresh data file')
-        .option('-q, --query [quest]', 'Search for phrase [phrase]', 'file')
+        .option('-q, --query [quest]', 'Search for phrase [phrase]', '')
         .parse(process.argv);
 
     const noArgsProvided = !process.argv.slice(2).length;
@@ -31,11 +31,14 @@ function initScript() {
 
     init(program.refresh, program.query)
         .then((data) => {
-            console.log('SEARCH RESULTS FOR: ' + program.query);
-            console.log('\n');
-            data.forEach((curr) => {
+            console.log('------- DONE -------\n');
+
+            data.reverse().forEach((curr) => {
                 console.log(curr);
             });
+
+            console.log('(scroll up for more results, best result directly above this)');
+            console.log('^^^ SEARCH RESULTS FOR: ' + program.query + '^^^');
         })
         .catch((err) => err);
 }

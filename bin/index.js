@@ -16,7 +16,7 @@ function _getData(url) {
         .catch((err) => err);
 }
 
-function init(refresh, query = 'file', url = opts.url) {
+function init(refresh, query = '', url = opts.url) {
     var prom;
     if (refresh) {
         prom = _getData(url);
