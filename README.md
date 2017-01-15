@@ -77,5 +77,105 @@ $ cp -r dir1 dir2
 
 ---
 
-**[Credit](https://files.fosswire.com/2007/08/fwunixref.pdf)**
+### list files, files in folder
+
+* directory listing
+
+```bash
+$ ls
+```
+
+* formatted listing with hidden files
+
+```bash
+$ ls -ahl
+```
+
+---
+
+### switch folder, change folder, change directory
+
+```bash
+$ cd [directory_name]
+```
+* change to home directory
+```bash
+$ cd ~
+```
+---
+
+### where am I?, current directory, current folder
+
+```bash
+$ pwd
+```
+---
+
+### create directory, make directory, make folder
+
+```bash
+$ mkdir [directory_name]
+```
+* you can even create a new folder in existing folder
+
+```bash
+$ mkdir some_existing_folder/[directory_name]
+```
+---
+
+### delete directory, delete folder, remove directory, remove folder
+
+* removing file
+```bash
+$ rm [file_name]
+```
+
+* to delete folder
+```bash
+$ rm -rf [folder_name]
+```
+
+* to remove files of one type
+```bash
+$ rm *.js
+```
+
+* ^^^ will remove only files that have .js extensions
+
+---
+
+### create empty file, new file
+
+```bash
+$ touch [file_name]
+```
+
+---
+
+### preview file, see file, look into file
+
+```bash
+$ cat [file_name]
+```
+
+* output the first 10 lines of file
+
+```bash
+$ head [file_name]
+```
+* output the last 10 lines of file
+
+```bash
+$ tail [file_name]
+```
+
+* output the contents of file as it grows, starting with the last 10 lines
+
+```bash
+$ tail -f [file_name]
+```
+---
+
+
+**[Credit](https://files.fosswire.com/2007/08/fwunixref.pdf)**: content based off the cheat sheet found in that PDF
 
