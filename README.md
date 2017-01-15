@@ -2,6 +2,33 @@
 
 terminal documentation accessible via commandline.
 
+## How it works
+
+This README is parsed by the script and everything below the **Commands** section is considered as "data".
+
+The script will pull in all the commands data, parse into an array and run fuzzy searching on it from user command line input.
+
+## Installation
+
+* Make sure you have [NodeJS](https://nodejs.org/en/download/) installed.
+* In terminal (probably best to copy and paste):
+
+```bash
+$ git clone https://github.com/mottaquikarim/TerminalTutor/ && cd TerminalTutor && npm install -g
+```
+
+## Usage
+
+```bash
+$ terminaltutor -q "copy file"
+```
+
+If you want to refresh the data file (ie: the following list can and will change, if you want to pull in latest changes)
+
+```bash
+$ terminaltutor -r -q "copy file"
+```
+
 ## Commands
 
 List of helpful commands.
