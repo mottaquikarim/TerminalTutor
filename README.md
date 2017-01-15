@@ -113,14 +113,13 @@ $ pwd
 
 ### create directory, make directory, make folder
 
-```bash
-$ mkdir [directory_name]
-```
 * you can even create a new folder in existing folder
 
 ```bash
+$ mkdir [directory_name]
 $ mkdir some_existing_folder/[directory_name]
 ```
+
 ---
 
 ### delete directory, delete folder, remove directory, remove folder
@@ -128,19 +127,10 @@ $ mkdir some_existing_folder/[directory_name]
 * removing file
 ```bash
 $ rm [file_name]
+$ rm -rf [folder_name]  # delete folder
+$ rm *.js               # to remove files of one type
+                        # will remove only files that have .js extensions
 ```
-
-* to delete folder
-```bash
-$ rm -rf [folder_name]
-```
-
-* to remove files of one type
-```bash
-$ rm *.js
-```
-
-* ^^^ will remove only files that have .js extensions
 
 ---
 
@@ -156,24 +146,11 @@ $ touch [file_name]
 
 ```bash
 $ cat [file_name]
+$ head [file_name]      # output the first 10 lines of file
+$ tail [file_name]      # output the last 10 lines of file
+$ tail -f [file_name]   # output the contents of file as it grows, starting with the last 10 lines
 ```
 
-* output the first 10 lines of file
-
-```bash
-$ head [file_name]
-```
-* output the last 10 lines of file
-
-```bash
-$ tail [file_name]
-```
-
-* output the contents of file as it grows, starting with the last 10 lines
-
-```bash
-$ tail -f [file_name]
-```
 ---
 
 
