@@ -71,6 +71,7 @@ $ cp file1 file2
 
 * copy dir1 to dir2
 * create dir2 if it doesn't exist
+
 ```bash
 $ cp -r dir1 dir2
 ```
@@ -83,12 +84,7 @@ $ cp -r dir1 dir2
 
 ```bash
 $ ls
-```
-
-* formatted listing with hidden files
-
-```bash
-$ ls -ahl
+$ ls -ahl   # formatted listing with hidden files
 ```
 
 ---
@@ -97,11 +93,9 @@ $ ls -ahl
 
 ```bash
 $ cd [directory_name]
+$ cd ~                # change to home directory
 ```
-* change to home directory
-```bash
-$ cd ~
-```
+
 ---
 
 ### where am I?, current directory, current folder
