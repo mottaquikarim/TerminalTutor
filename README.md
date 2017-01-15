@@ -34,6 +34,14 @@ $ terminaltutor -r -q "copy file"
 * [Fork this repo](https://help.github.com/articles/fork-a-repo/)
 * [Submit a pull request](https://help.github.com/articles/about-pull-requests/)
 
+If you want to maintain and use your own personal list, you can also just copy this readme, add your own content, and point `terminaltutor` to your personal URL. 
+
+Open up `options.js`, update the `url` key, save, and run:
+
+```
+$ npm install -g
+```
+
 ## Commands
 
 List of helpful commands.
