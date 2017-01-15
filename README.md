@@ -2,6 +2,12 @@
 
 terminal documentation accessible via commandline.
 
+## Commands
+
+List of helpful commands.
+
+---
+
 ### move file, rename file
 
 * rename or move file1 to file2
@@ -10,6 +16,7 @@ terminal documentation accessible via commandline.
 ```bash
 $ mv file1 file2
 ```
+---
 
 ### copy file
 
@@ -18,6 +25,8 @@ $ mv file1 file2
 ```bash
 $ cp file1 file2
 ```
+---
+
 ### copy folder
 
 * copy dir1 to dir2
@@ -25,5 +34,7 @@ $ cp file1 file2
 ```bash
 $ cp -r dir1 dir2
 ```
+
+---
 
 **[Credit](https://files.fosswire.com/2007/08/fwunixref.pdf)**
