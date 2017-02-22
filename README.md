@@ -147,6 +147,25 @@ $ tail -f [file_name]   # output the contents of file as it grows, starting with
 
 ---
 
+### create node project, start node, init node
+
+```bash
+$ mkdir [node_project_folder_name]
+$ cd [node_project_folder_name]
+$ npm init
+```
+
+---
+
+### install node dependency, node add library
+
+```bash
+$ cd [node_project_folder_name]
+$ npm install --save [name_of_repo]
+```
+
+---
+
 
 **[Credit](https://files.fosswire.com/2007/08/fwunixref.pdf)**: content based off the cheat sheet found in that PDF
 
