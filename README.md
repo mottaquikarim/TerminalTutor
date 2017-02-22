@@ -166,6 +166,16 @@ $ npm install --save [name_of_repo]
 
 ---
 
+### run node, run node file
+
+```bash
+$ cd [node_project_folder_name]
+$ node [file_name].js
+```
+
+
+---
+
 
 **[Credit](https://files.fosswire.com/2007/08/fwunixref.pdf)**: content based off the cheat sheet found in that PDF
 
